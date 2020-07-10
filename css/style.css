@@ -1,0 +1,273 @@
+/* Template: Tivo  HTML Landing Page Template
+   Author: Rasel kazi
+   Created: Sep 2020
+   Description: Master CSS file
+*/
+
+/*****************************************
+Table Of Contents:
+
+01. General Styles
+02. Navigation
+03. Header
+04. catagory 
+05. Online Courses card
+06. carousel
+07. Footer 
+08. Copyright 
+******************************************/
+
+
+/******************************/
+/*     01. General Styles     */
+/******************************/
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+p {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+
+.align-center {
+    text-align: center;
+    margin: 70px;
+}
+
+
+/******************************/
+/*     02. Navigation         */
+/******************************/
+.bg-color {
+    background-color: #b6e5b6;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-green-btn {
+    width: 100px;
+    display: inline-block;
+    padding: 5px 20px;
+    border: 2px solid #21B573;
+    border-radius: 50px;
+    background-color: #21B573;
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.nav-green-btn:hover {
+    border: 2px solid #21B573;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #21B573 !important;
+}
+
+
+
+
+
+
+/******************************/
+/*     03. Header             */
+/******************************/
+.header-section {
+    background-color: #b6e5b6;
+}
+
+.headre-img img {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.header-content {
+    padding: 25px;
+    margin-top: 100px;
+
+
+}
+
+.header h1 {
+    font-weight: 600;
+    color: #000000;
+
+}
+
+.header samp {
+    color: #21B573;
+}
+
+.header-tiext {
+    color: #FD511A;
+}
+
+
+.header-green-btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 5px 20px;
+    border: 2px solid #21B573;
+    border-radius: 50px;
+    background-color: #21B573;
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.header-green-btn:hover {
+    border: 2px solid #21B573;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #21B573 !important;
+}
+
+
+/**********************/
+/*     04. catagory    */
+/**********************/
+
+.catagory {
+    background: #b6e5b6;
+    border-radius: 10px;
+    border: none;
+}
+
+.catagory:hover {
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.catagory img {
+    width: 65px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    border-radius: 13px;
+
+}
+
+.card-body h5 {
+    color: black;
+    font-weight: 600;
+
+}
+
+.card-body p {
+    font-weight: 600;
+}
+
+.catagory-body h5,
+.catagory-body p {
+    text-align: center;
+
+}
+
+
+/***********************************/
+/*    05. Online Courses card     */
+/**********************************/
+
+.card {
+    margin: 40px;
+}
+
+.card-footer-item img {
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+.card-footer-item p {
+    text-align: center;
+    padding-left: 0.3rem;
+    font-size: 1rem;
+
+}
+
+
+/**********************/
+/*     06. carousel   */
+/**********************/
+
+.carousel-item p {
+
+    padding-left: 2rem;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+
+/**********************/
+/*     07. Footer     */
+/**********************/
+
+.footer {
+    margin-top: -7px;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    background-color: #282531;
+}
+
+.footer-header {
+    border-bottom: 1px dashed #554a75;
+    ;
+}
+
+.list-unstyled a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+
+
+}
+
+.footer h4 {
+    margin-bottom: 0.625rem;
+    color: #fff;
+}
+
+.footer .list-unstyled,
+.footer p {
+    color: #f3f7fd;
+}
+
+/*************************/
+/*     08. Copyright     */
+/*************************/
+.copyright {
+    padding-top: 1rem;
+    padding-bottom: 0.375rem;
+    background-color: #282531;
+    border-top: 1px solid #554a75;
+    color: #FFF;
+    text-align: center;
+}
+
+.copyright p {
+    color: #FFF;
+}
