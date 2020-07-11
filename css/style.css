@@ -1,6 +1,6 @@
-/* Template: Tivo  HTML Landing Page Template
+/* Template: e-chool HTML Landing Page Template
    Author: Rasel kazi
-   Created: Sep 2020
+   Created: july 2020
    Description: Master CSS file
 */
 
@@ -149,6 +149,7 @@ h1 {
     background: #b6e5b6;
     border-radius: 10px;
     border: none;
+    margin: auto;
 }
 
 .catagory:hover {
@@ -212,18 +213,66 @@ h1 {
 /*     06. carousel   */
 /**********************/
 
-.carousel-item p {
-
-    padding-left: 2rem;
+.carousel-item p{
+    padding: 2rem;
 }
 
-.carousel {
+.carousel{
     margin-bottom: 100px;
 }
 
 
 /**********************/
-/*     07. Footer     */
+/*     07. NEWSLETTER */
+/**********************/
+
+
+.news-letter{
+    width: 90%;
+    border-radius: 5px;
+    background-color: #125fad31;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.news-letter h4{ 
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.font-awesome{
+    margin: 50px;
+    
+
+}
+.font-awesome i{
+    width: 50px;
+    padding:  12px;
+    margin: 8px;
+    border: 1px solid #21B573;
+    border-radius: 50px;
+    background-color: #21B573;
+    color: #fff !important;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+	transition: all 0.2s ease;
+}
+
+.font-awesome i:hover {
+    color: #21B573 !important; 
+    background-color: #fff;
+    
+}
+
+
+
+/**********************/
+/*     08. Footer     */
 /**********************/
 
 .footer {
@@ -257,7 +306,7 @@ h1 {
 }
 
 /*************************/
-/*     08. Copyright     */
+/*     09. Copyright     */
 /*************************/
 .copyright {
     padding-top: 1rem;
